@@ -1,0 +1,11 @@
+GPS
+sudo sh -c "echo 38 > /sys/class/gpio/export"
+sudo sh -c "echo out > /sys/class/gpio/gpio38/direction"
+sudo sh -c "echo 1 > /sys/class/gpio/gpio38/value"
+sudo sh -c "echo 0 > /sys/class/gpio/gpio38/value"
+
+GSM
+sudo sh -c "echo 149 > /sys/class/gpio/export"
+sudo sh -c "echo out > /sys/class/gpio/gpio149/direction"
+sudo sh -c "echo 1 > /sys/class/gpio/gpio149/value"
+sudo sh -c "echo 0 > /sys/class/gpio/gpio149/value"
